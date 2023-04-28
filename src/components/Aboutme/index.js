@@ -16,13 +16,13 @@ export default () => {
   <div class="md:col-span-9 col-span-12  bg-[#2c2d2f]">
   <div className="about-me ">
         <div className="container information d-flex justify-cont-bet ">
-          <div className="about-heading clr-blue font-bold text-6xl mt-24 md:mt-4  pb-6">
+          <div className="about-heading clr-blue font-bold text-xl md:text-6xl mt-24 md:mt-4  pb-6">
             About Me
           </div>
         </div>
         <div className="personal-info flex justify-evenly  mt-5">
           <div className="col-md-5 dev-objective">
-            <h3 className="text-4xl font-bold">Frontend Web Developer</h3>
+            <h3 className="md:text-4xl text-xl font-bold">Frontend Web Developer</h3>
             <p className=" w-100% md:w-[800px] mt-6">
               I am Frontend Developer interested in working for a stable company
               that will encourage my growth and development to be the most
@@ -30,7 +30,7 @@ export default () => {
             </p>
           </div>
           <div className="col-md-5 my-info">
-            <h3 className="text-4xl font-bold mt-6 md:mt-0">Personal Information</h3>
+            <h3 className="md:text-4xl text-xl font-bold mt-6 md:mt-0">Personal Information</h3>
             <p className="mt-6">
               <span>Name</span> : Usman Naveed
             </p>
@@ -60,7 +60,7 @@ export default () => {
               <h2 className="text-4xl font-bold mt-16">SERVICES</h2>
             </div>
           </div>
-          <div className="container my-offerings flex justify-evenly mt-5">
+          <div className="container my-offerings flex justify-evenly flex-wrap mt-5">
             <div className="web-development text-center">
               <i className="lnr lnr-laptop font-40 clr-blue"></i>
               <h4 className="clr-white text-normal md:text-2xl font-bold">Web Development</h4>
