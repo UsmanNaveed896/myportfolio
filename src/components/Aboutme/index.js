@@ -10,9 +10,13 @@ export default () => {
  
   return (
     <>
-      <div className="about-me container max-w-[1600px]">
+    <div className="grid grid-cols-12">
+    <div class="col-span-3  bg-[#2c2d2f] md:grid hidden">
+    </div>
+  <div class="md:col-span-9 col-span-12  bg-[#2c2d2f]">
+  <div className="about-me ">
         <div className="container information d-flex justify-cont-bet ">
-          <div className="about-heading clr-blue font-bold text-6xl mt-24 md:mt-4 ml-0 md:ml-24 pb-6">
+          <div className="about-heading clr-blue font-bold text-6xl mt-24 md:mt-4  pb-6">
             About Me
           </div>
         </div>
@@ -143,6 +147,10 @@ export default () => {
 
           </div>
         </div>
+      </div>
+
+  </div>
+
       </div>
     </>
   );

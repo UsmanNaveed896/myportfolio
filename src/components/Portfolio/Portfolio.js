@@ -10,10 +10,14 @@ import '../Portfolio/portfoliores.scss'
 export default () => {
     return (
         <>
+        <div className="grid grid-cols-12">
+        <div class="col-span-3  bg-[#2c2d2f] md:grid hidden">
+    </div>
+    <div class="md:col-span-9 col-span-12  bg-[#2c2d2f]">
             <div className="portfolio container max-w-[1600px]">
                 <div className="container">
                     <div className="portfolio-head d-flex justify-cont-bet">
-                        <div className=" clr-blue f-w-700 font-40 mt-5 md:ml-16 ml-0"><h1>Portfolio</h1></div>
+                        <div className=" clr-blue f-w-700 font-40 mt-5 "><h1>Portfolio</h1></div>
                     </div>
                     <div className="navbar flex justify-center">
                         <div className="nav-content  clr-blue mt-5">
@@ -53,6 +57,10 @@ export default () => {
                         </div>
                     </div>
                 </div>
+            </div>
+
+            </div>
+
             </div>
         </>
     )
