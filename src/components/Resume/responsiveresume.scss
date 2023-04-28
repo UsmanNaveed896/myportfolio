@@ -1,0 +1,463 @@
+@media (max-width: 1199px) and (min-width: 1024px) { }
+@media (max-width: 1023px) and (min-width: 992px) { }
+@media (max-width: 991px) and (min-width: 768px) { 
+    .Resume{
+        max-width: 80!important;
+    }
+    .bars {
+        width: 100%;
+    } 
+    .heading {
+        margin-top: 52px !important;
+    } 
+    .col-md-6.experience-col {
+    margin-left:0!important;
+}
+.engineering-skills.col-md-6 {
+    margin-left: 0;
+}
+.exp-one{
+    .to {
+        left: -24px!important;
+        top: 139px!important;  
+    }
+    .from {
+        left: -26px;
+        top: 485px;
+    }
+}
+.exp-two{
+    .to {
+        left: -44px!important;
+        top: -21px!important;  
+    }
+    .from {
+        left: -44px!important;
+        top: 313px!important;
+    }
+}
+    .edu-one{
+        .to {
+            left: -26px!important;
+            top: 125px!important;  
+        }
+        .from {
+            left: -25px!important;
+            top: 361px!important;
+        }
+}
+.edu-two{
+    .to {
+        left: -41px!important;
+        top: -43px!important;  
+    }
+    .from {
+        left: -41px!important;
+        top: 166px!important;
+    }
+}
+.edu-three{
+.to {
+    left: -45px!important;
+    top: -39px!important;  
+}
+.from {
+    left: -41px!important;
+    top: 158px!important;
+}
+}
+.line-left {
+    height: 29%;
+    left: -7px;
+    top: 179px;
+}
+h3{
+    font-size: 1.2rem;
+}
+}
+@media (max-width: 684px) and (min-width: 568px) { 
+.front-side.d-flex {
+    flex-direction: column;
+}
+.coding-skills.d-flex {
+    flex-direction: column;
+}
+.col-md-6.experience-col {
+    margin:0!important;
+}
+.engineering-skills.col-md-6 {
+    margin-left: 0;
+}
+.exp-one{
+    .to {
+        left: -24px!important;
+        top: 139px!important;  
+    }
+    .from {
+        left: -26px;
+        top: 431px;
+    }
+}
+.exp-two{
+    .to {
+        left: -44px!important;
+        top: -21px!important;  
+    }
+    .from {
+        left: -44px!important;
+        top: 313px!important;
+    }
+}
+    .edu-one{
+        .to {
+            left: -26px!important;
+            top: 125px!important;  
+        }
+        .from {
+            left: -25px!important;
+            top: 361px!important;
+        }
+}
+.edu-two{
+    .to {
+        left: -41px!important;
+        top: -43px!important;  
+    }
+    .from {
+        left: -41px!important;
+        top: 166px!important;
+    }
+}
+.edu-three{
+.to {
+    left: -45px!important;
+    top: -39px!important;  
+}
+.from {
+    left: -41px!important;
+    top: 143px!important;
+}
+}
+.bars {
+    width: 100%;
+}
+}
+@media (max-width: 767px) and (min-width: 685px) { 
+    .front-side.d-flex {
+        flex-direction: column;
+    }
+    .coding-skills.d-flex {
+        flex-direction: column;
+    }
+    .col-md-6.experience-col {
+        margin:0!important;
+    }
+    .engineering-skills.col-md-6 {
+        margin-left: 0;
+    }
+    .exp-one{
+        .to {
+            left: -24px!important;
+            top: 139px!important;  
+        }
+        .from {
+            left: -26px;
+            top: 431px;
+        }
+    }
+    .exp-two{
+        .to {
+            left: -44px!important;
+            top: -21px!important;  
+        }
+        .from {
+            left: -44px!important;
+            top: 313px!important;
+        }
+    }
+        .edu-one{
+            .to {
+                left: -26px!important;
+                top: 125px!important;  
+            }
+            .from {
+                left: -25px!important;
+                top: 361px!important;
+            }
+    }
+    .edu-two{
+        .to {
+            left: -41px!important;
+            top: -43px!important;  
+        }
+        .from {
+            left: -41px!important;
+            top: 166px!important;
+        }
+}
+.edu-three{
+    .to {
+        left: -45px!important;
+        top: -39px!important;  
+    }
+    .from {
+        left: -41px!important;
+        top: 143px!important;
+    }
+}
+    .line-left {
+        height: 29%;
+        left: -7px;
+        top: 179px;
+    }
+    .bars {
+        width: 100%;
+    }
+    .resume-icon.clr-blue.mt-5 {
+        margin-top: 5rem!important;
+    }
+    .heading.clr-blue.f-w-700.font-40.mt-5 {
+        margin-top: 5rem!important;
+    }
+}
+@media (max-width: 684px) and (min-width: 568px) { 
+    .resume-icon.clr-blue.mt-5 {
+        margin-top: 5rem!important;
+    }
+    .heading.clr-blue.f-w-700.font-40.mt-5 {
+        margin-top: 5rem!important;
+    }
+    .front-side.d-flex {
+        flex-direction: column;
+    }
+    .coding-skills.d-flex {
+        flex-direction: column;
+    }
+    .col-md-6.experience-col {
+        margin:0!important;
+    }
+    .engineering-skills.col-md-6 {
+        margin-left: 0;
+    }
+    .exp-one{
+        .to {
+            left: -24px!important;
+            top: 139px!important;  
+        }
+        .from {
+            left: -26px;
+            top: 431px;
+        }
+    }
+    .exp-two{
+        .to {
+            left: -44px!important;
+            top: -21px!important;  
+        }
+        .from {
+            left: -44px!important;
+            top: 313px!important;
+        }
+    }
+        .edu-one{
+            .to {
+                left: -26px!important;
+                top: 125px!important;  
+            }
+            .from {
+                left: -25px!important;
+                top: 361px!important;
+            }
+    }
+    .edu-two{
+        .to {
+            left: -41px!important;
+            top: -43px!important;  
+        }
+        .from {
+            left: -41px!important;
+            top: 166px!important;
+        }
+}
+.edu-three{
+    .to {
+        left: -45px!important;
+        top: -39px!important;  
+    }
+    .from {
+        left: -41px!important;
+        top: 143px!important;
+    }
+}
+    .line-left {
+        height: 29%;
+        left: -7px;
+        top: 179px;
+    }
+    // .bars {
+    //     width: 100%;
+    // }
+}
+@media (max-width: 567px) and (min-width: 480px) { 
+    .heading.clr-blue.f-w-700.font-40.mt-5 {
+        margin-top: 5rem!important;
+    }
+    .front-side.d-flex {
+        flex-direction: column;
+    }
+    .coding-skills.d-flex {
+        flex-direction: column;
+    }
+    .col-md-6.experience-col {
+        margin:0!important;
+    }
+    .engineering-skills.col-md-6 {
+        margin-left: 0;
+    }
+    .exp-one{
+        .to {
+            left: -24px!important;
+            top: 139px!important;  
+        }
+        .from {
+            left: -26px;
+            top: 456px;
+        }
+    }
+    .exp-two{
+        .to {
+            left: -44px!important;
+            top: -21px!important;  
+        }
+        .from {
+            left: -44px!important;
+            top: 359px!important;
+        }
+    }
+        .edu-one{
+            .to {
+                left: -26px!important;
+                top: 125px!important;  
+            }
+            .from {
+                left: -25px!important;
+                top: 381px!important;
+            }
+    }
+    .edu-two{
+        .to {
+            left: -41px!important;
+            top: -43px!important;  
+        }
+        .from {
+            left: -41px!important;
+            top: 166px!important;
+        }
+}
+.edu-three{
+    .to {
+        left: -45px!important;
+        top: -39px!important;  
+    }
+    .from {
+        left: -41px!important;
+        top: 215px!important;
+    }
+}
+    .line-left {
+        height: 29%;
+        left: -7px;
+        top: 179px;
+    }
+    .bars {
+        width: 100%;
+    }
+    i.lnr.lnr-license.font-40 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 479px) and (min-width: 320px) {
+    .front-side.d-flex {
+        flex-direction: column;
+    }
+    .coding-skills.d-flex {
+        flex-direction: column;
+    }
+    .col-md-6.experience-col {
+        margin:0!important;
+    }
+    .engineering-skills.col-md-6 {
+        margin-left: 0;
+    }
+    .exp-one{
+        .to {
+            left: -24px!important;
+            top: 139px!important;  
+        }
+        .from {
+            left: -26px;
+            top: 456px;
+        }
+    }
+    .exp-two{
+        .to {
+            left: -44px!important;
+            top: -21px!important;  
+        }
+        .from {
+            left: -44px!important;
+            top: 359px!important;
+        }
+    }
+        .edu-one{
+            .to {
+                left: -26px!important;
+                top: 125px!important;  
+            }
+            .from {
+                left: -25px!important;
+                top: 381px!important;
+            }
+    }
+    .edu-two{
+        .to {
+            left: -41px!important;
+            top: -43px!important;  
+        }
+        .from {
+            left: -41px!important;
+            top: 166px!important;
+        }
+}
+.edu-three{
+    .to {
+        left: -45px!important;
+        top: -39px!important;  
+    }
+    .from {
+        left: -41px!important;
+        top: 215px!important;
+    }
+}
+    .line-left {
+        height: 29%;
+        left: -7px;
+        top: 179px;
+    }
+    .starting-content{
+        margin-top: 3rem!important;
+        .heading {
+            width: 90%;
+           
+        }
+    }
+    h3{
+        font-size: 1rem;
+    }
+    .bars {
+        width: 100%;
+    }
+    i.lnr.lnr-license.font-40 {
+        font-size: 20px;
+    }
+ }

@@ -1,0 +1,105 @@
+@media (max-width: 1199px) and (min-width: 1024px) {
+
+ }
+@media (max-width: 1023px) and (min-width: 992px) {
+ 
+ }
+@media (max-width: 991px) and (min-width: 768px) {
+    .home-main {
+         float: right;
+         max-width: 80%!important;
+    }
+    .home-main .banner {
+        position: absolute;
+        top: 40%;
+        left: 35%;
+        .main-heading {
+            h1{
+                font-size: 30px;
+            }
+        }
+    }
+    .cd-headline {
+        font-size: 1.2rem;
+    }
+    .home-main .animation {
+        top: 48%;
+        left: 37%;
+    }
+ }
+@media (max-width: 767px) and (min-width: 685px) { 
+    .home-main .banner {
+        position: absolute;
+        top: 40%;
+        left: 30%;
+        .main-heading {
+            h1{
+                font-size: 30px;
+            }
+        }
+    }
+    .cd-headline {
+        font-size: 1.2rem;
+    }
+    .home-main .animation {
+        top: 50%;
+        left: 31%;
+    }
+}
+@media (max-width: 684px) and (min-width: 568px) { 
+    .home-main .banner {
+        position: absolute;
+        top: 40%;
+        left: 30%;
+        .main-heading {
+            h1{
+                font-size: 30px;
+            }
+        }
+    }
+    .cd-headline {
+        font-size: 1.2rem;
+    }
+    .home-main .animation {
+        top: 50%;
+        left: 31%;
+    }
+}
+@media (max-width: 567px) and (min-width: 480px) { 
+    .home-main .banner {
+        position: absolute;
+        top: 40%;
+        left: 12%;
+        .main-heading {
+            h1{
+                font-size: 30px;
+            }
+        }
+    }
+    .cd-headline {
+        font-size: 1.2rem;
+    }
+    .home-main .animation {
+        top: 47%;
+        left: 16%;
+    }
+}
+@media (max-width: 479px) and (min-width: 320px) { 
+    .home-main .banner {
+        position: absolute;
+        top: 40%;
+        left: 19%;
+        .main-heading {
+            h1{
+                font-size: 30px;
+            }
+        }
+    }
+    .cd-headline {
+        font-size: 1.2rem;
+    }
+    .home-main .animation {
+        top: 47%;
+        left: 19%;
+    }
+}

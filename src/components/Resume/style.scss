@@ -1,0 +1,79 @@
+.Resume{
+    background: #2c2d2f!important;
+    float: right;
+    .experience-col{
+        .heading-experience{
+            h3{
+                border-bottom:1px solid #00A3E1;
+                font-family: 'Font Awesome 5 Brands';
+            }
+        }
+        .line-experience{
+            padding: 0;
+            .first-experience{
+                margin-top: 5rem;
+                p{
+                    font-size: 19px;
+                }
+            }
+            .span-line{
+                ul{
+                    li{
+                        list-style-type: none;
+                        
+                    }
+                }
+            }
+        }
+       
+    }
+                    .my-skills{
+                        margin-top: 8rem;
+                    }
+}
+
+
+// Progress Bars
+.bars {
+    width: 90%;
+}
+.progress-outer{
+    border-radius: 50px;
+    padding: 16px;
+    margin: 23px 0;
+    box-shadow: 0 0  10px rgba(209, 219, 231,0.7);
+}
+.progress{
+    height: 27px;
+    margin: 0;
+    overflow: visible;
+    border-radius: 50px;
+    background: #404144;
+}
+.progress .progress-bar{
+    border-radius: 50px;
+}
+.progress .progress-value{
+    position: relative;
+    left: -45px;
+    top: 13px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.progress-bar.active{
+    animation: reverse progress-bar-stripes 0.40s linear infinite, animate-positive 2s;
+}
+@-webkit-keyframes animate-positive{
+    0% { width: 0%; }
+}
+@keyframes animate-positive {
+    0% { width: 0%; }
+}
+.progress-bar {
+    background-color: #00A3E1!important;
+}
+.engineering-skills.col-md-6 {
+    margin-left: 6rem;
+}

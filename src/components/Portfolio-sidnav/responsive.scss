@@ -1,0 +1,100 @@
+@media (max-width: 1199px) and (min-width: 1024px) { }
+@media (max-width: 1023px) and (min-width: 992px) {  
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    .side-nav-main{
+        height:100vh;
+        display:block;
+        overflow: scroll;
+         max-width: 20.666667%!important;
+    }
+    .profile-pic{
+        .heading{
+            margin-top: -27px!important;
+            h1{
+                font-size: 1rem;
+            }
+        }
+    }
+    .side-nav-main .contents ul li a {
+        font-size: 12px;
+    }
+    .side-nav-main .contents  {
+        .lnr {
+            font-size: 12px;
+        }
+    }
+    .side-nav-main .contents ul {
+        padding: 0!important;
+    }
+    .side-nav-main .social-icons {
+        padding-bottom:0;
+        margin-top: 0!important; 
+        width: 99%;
+    }
+    .side-nav-main .para {
+         padding-bottom:0;
+         font-size: 12px;
+    }
+    .side-nav-main .contents ul li {
+        font-size: 12px;
+    }
+    .header-mobile-view{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+ }
+@media (max-width: 767px) and (min-width: 685px) {
+    .side-nav-main{
+        display:none;
+    }
+    .header-mobile-view{
+        display: block;
+        position: absolute;
+        z-index: 444;
+    }
+    .sidebar{
+        display: block;
+    }
+ }
+@media (max-width: 684px) and (min-width: 568px) {
+    .side-nav-main{
+        display:none;
+    }
+    .header-mobile-view{
+        position: absolute;
+        z-index: 444;
+        display: block;
+    }
+    .sidebar{
+        display: block;
+    }
+ }
+@media (max-width: 567px) and (min-width: 480px) { 
+    .side-nav-main{
+        display:none;
+    }
+    .header-mobile-view{
+        display: block;
+        position: absolute;
+        z-index: 444;
+    }
+    .sidebar{
+        display: block;
+    }
+}
+@media (max-width: 479px) and (min-width: 320px) {
+    .side-nav-main{
+        display:none;
+    }
+    .header-mobile-view{
+        display: block;
+        position: absolute;
+        z-index: 444;
+    }
+    .sidebar{
+        display: block;
+    }
+ }
