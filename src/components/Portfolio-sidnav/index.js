@@ -36,12 +36,11 @@ export default()=>{
                 </ul>
             </div>
             <div className="social-icons mt-5 row">
-                <li><a href="https://www.facebook.com/usman.naveed.7374/"><i class="fab fa-facebook-square"></i></a></li>
-                <li><a href="https://www.instagram.com/usmann_2/"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="https://github.com/UsmanNaveed896"><i class="fab fa-github"></i></a></li>
+    
+          
             </div>
             <div className="para">
-            <p>ALL RIGHT RESERVED</p>
+           
             </div>
         </div>
 
