@@ -8,7 +8,7 @@ export default () => {
       <div className="grid grid-cols-12">
         <div class="col-span-3  bg-[#2c2d2f] md:grid hidden">
         </div>
-        <div class="md:col-span-9 col-span-12  bg-[#2c2d2f]">
+        <div class="md:col-span-9 col-span-12  bg-[#2c2d2f] px-4">
           <div className="Resume container  max-w-[1600px] ">
             <div className="container ">
               <div className="starting-content flex justify-cont-bet">

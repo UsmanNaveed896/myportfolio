@@ -60,11 +60,11 @@ export default()=>{
                     <button className="sidebar-close-button" onClick={closeMenu}>x</button>
                 </div>
                 <div className="contents ">
-                <ul className="font-12 ">
+                <ul className="font-18 ">
                     <li ><i className="lnr lnr-home"></i><a href="/">HOME</a></li>
-                    <li><i className="lnr lnr-user"></i><a href="/aboutme">ABOUT ME</a></li>
-                    <li><i className="lnr lnr-license"></i><a href="/resume">RESUME</a></li>
-                    <li><i className="lnr lnr-briefcase"></i><a href="/portfolio">PORTFOLIO</a></li>
+                    <li onClick={()=>navigate('/aboutme')}><i className="lnr lnr-user"></i>ABOUT ME</li>
+                    <li onClick={()=>navigate('/resume')}><i className="lnr lnr-license"></i>RESUME</li>
+                    <li onClick={()=>navigate('/projects')}><i className="lnr lnr-briefcase"></i>My Projects</li>
                     <li><i className="lnr lnr-envelope"></i>CONTACT
                     <div className='flex justify-center gap-4 mt-6'> 
                     <a href='https://www.linkedin.com/in/usman-naveed-a288911ab/'><img className="h-[20px]" src={Img2} alt="sd" /></a>

@@ -10,10 +10,10 @@ export default () => {
  
   return (
     <>
-    <div className="grid grid-cols-12">
+    <div className="grid grid-cols-12 ">
     <div class="col-span-3  bg-[#2c2d2f] md:grid hidden">
     </div>
-  <div class="md:col-span-9 col-span-12  bg-[#2c2d2f]">
+  <div class="md:col-span-9 col-span-12  bg-[#2c2d2f]  px-4">
   <div className="about-me ">
         <div className="container information d-flex justify-cont-bet ">
           <div className="about-heading clr-blue font-bold text-xl md:text-6xl mt-24 md:mt-4  pb-6">
@@ -87,7 +87,7 @@ export default () => {
 
             
           </div>
-          <div className="my-skills mt-16">
+          <div className="my-skills mt-16 pb-6">
             <div className="myskill-heading flex justify-center clr-white mt-5">
               <div>
                 <h2 className="border-bottom mt-16 text-4xl font-bold mt-16">MY SKILLS</h2>
@@ -103,7 +103,7 @@ export default () => {
           <span class="text-5xl font-semibold px-6 py-4 bg-[#00A3E1] text-gray-800 rounded-full mb-4">
             <img className="h-full md:h-[100px] rounded-full" src={Img1} />
           </span>
-          <span class="text-red-200 font-bold">
+          <span class="text-red-200 font-bold text-xs md:text-lg">
             React JS
           </span>
         </div>
@@ -113,7 +113,7 @@ export default () => {
           <span class="text-5xl font-semibold px-6 py-4 bg-[#00A3E1]  text-gray-800 rounded-full mb-4">
           <img className="h-full md:h-[100px] rounded-full" src={Img2} />
           </span>
-          <span class="text-red-200 font-bold">
+          <span class="text-red-200 font-bold text-xs md:text-lg">
            Next JS
           </span>
         </div>
@@ -123,7 +123,7 @@ export default () => {
           <span class="text-5xl font-semibold px-6 py-4 bg-[#00A3E1]  text-gray-800 rounded-full mb-4">
           <img className="h-full md:h-[100px] rounded-full" src={Img3} />
           </span>
-          <span class="text-red-200 font-bold">
+          <span class="text-red-200 font-bold text-xs md:text-lg">
             HTML,CSS Javascript
           </span>
         </div>
@@ -133,7 +133,7 @@ export default () => {
           <span class="text-5xl font-semibold px-6 py-4 bg-[#00A3E1]  text-gray-800 rounded-full mb-4">
           <img className="h-full md:h-[100px] rounded-full" src={Img4} />
           </span>
-          <span class="text-red-200 font-bold">
+          <span class="text-red-200 font-bold text-xs md:text-lg">
            Node js
           </span>
         </div>
