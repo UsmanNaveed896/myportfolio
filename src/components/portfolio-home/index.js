@@ -24,10 +24,10 @@ export default () => {
           {/* #usman naveed */}
           <main class="container">
             <p  class="animation top-[50%] left-[22%] md:top-[50%] md:left-[44%] absolute text-white text-4xl font-semibold"> I'm</p>
-            <section class="animation top-[50%] left-[34%] md:top-[51%] md:left-[48%] absolute">
-              <div class="first text-white text-3xl "><div  class="first text-white text-3xl rounded-full">Frontend Developer</div></div>
-              <div class="second text-white  text-3xl"><div  class="first text-white text-3xl rounded-full">React JS Developer</div></div>
-              <div class="third text-white  text-3xl"><div  class="first text-white text-3xl rounded-full">Web Developer</div></div>
+            <section class="animation top-[51%] left-[34%] md:top-[51%] md:left-[48%] absolute">
+              <div class="first text-white text-lg md:text-3xl "><div  class="first text-white text-lg md:text-3xl rounded-full">Frontend Developer</div></div>
+              <div class="second text-white text-lg md:text-3xl"><div  class="first text-white text-lg md:text-3xl rounded-full">React JS Developer</div></div>
+              <div class="third text-white text-lg md:text-3xl"><div  class="first text-white text-lg md:text-3xl rounded-full">Web Developer</div></div>
             </section>
           </main>
         </div>
